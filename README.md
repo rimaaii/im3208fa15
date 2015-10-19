@@ -1,1 +1,2 @@
-# im3208fa15
+# IM3208 Fall 2015
+## Wordpress Custom Theme Design & Development
