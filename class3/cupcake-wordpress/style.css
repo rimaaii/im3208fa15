@@ -1,0 +1,95 @@
+/*
+Theme Name: Cupcake Mary Theme
+Theme URI: https://github.com/rimaaii
+Author: Rima Gerhard
+Author URI: http://ourmiu.com
+Description: Mobile Friendly, fixed width layout.
+Version: 1.0
+License: 
+License URI: 
+Tags: fixed-layout, right-sidebar, white, red
+Text Domain: cupcake-wordpress
+*/
+
+header{
+	text-align: center;
+}
+
+nav a{
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: Arial, sans-serif;
+	font-size: 18px;
+	color: #7ac1b7;
+	font-weight: bold;
+}
+
+
+nav a.active, nav a:hover{
+	color: #9e2520;
+	position: relative;
+}
+
+nav a.active:before, nav a:hover:before{
+	position: absolute;
+	content:url(images/menu-active.png);
+    left: 43%;
+    top: -20px;
+}
+
+article	{
+	font-family: "Century Gothic", serif;
+}
+
+article h1{
+	font-size: 24px;
+	text-transform: uppercase;
+	color: #fdb84e;
+	font-weight: bold;
+	display: inline-block;
+}
+
+article time{
+	color: #91ccc3;
+}
+
+aside{
+	background-color: #fdb84e;
+	border-radius: 5px;
+	text-align: center;
+}
+
+aside h1{
+	color: #FFF;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+aside h2{
+	text-transform: uppercase;
+	font-weight: bold;	
+	font-size: 20px;
+}
+
+aside span.header{
+	font-size: 31px;
+	display: block;
+}
+
+aside span.subheader{
+	font-size: 16px;
+	display: block;
+}
+
+aside img{
+	border: 10px solid #fde090;
+	border-radius: 5px;
+}
+
+footer h3{
+	color: #7cc3b9;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: bold;
+}
